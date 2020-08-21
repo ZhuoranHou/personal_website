@@ -30,10 +30,10 @@ education:
   - course: Master of Biostatistics
     institution: Duke University
     year: Present
-  - course: Master of Science, Genetics
+  - course: MS in Genetics
     institution: Fudan University
     year: 2019
-  - course: Bachelor of Medical Science, Clinical Medicine
+  - course: BSc(Med) in Clinical Medicine
     institution: Jiangsu University
     year: 2016
 
