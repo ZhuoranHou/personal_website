@@ -54,10 +54,10 @@ After this, there was several files generated and these are the bases of the web
 
 ### 4.Choose a theme.
 
-After the previous step, I started to choose a theme for my personal page on [Hugo Themes](https://themes.gohugo.io/) website.  I chose the **Academic** theme, which provide many very sophisticated website templates and detailed tutorials[3]. I followed the [tutorial](https://sourcethemes.com/academic/docs/install-locally/#install-with-git) and used the following commands to overwrite the files in the _personal_website_ folder (I had to confess that I made a mistake here since I forgot to fork the repository first, and when I found it I almost finished the website). By doing this, I cloned the template [academic-kickstart](https://github.com/sourcethemes/academic-kickstart) to my local PC:
+After the previous step, I started to choose a theme for my personal page on [Hugo Themes](https://themes.gohugo.io/) website.  I chose the **Academic** theme, which provide many very sophisticated website templates and detailed tutorials[3]. I followed the [tutorial](https://sourcethemes.com/academic/docs/install-locally/#install-with-git) and used the following commands to overwrite the files in the _personal_website_ folder. You should first fork the original repository ([academic-kickstart](https://github.com/sourcethemes/academic-kickstart)), clone your fork to the local PC and then initialize the theme by the command below (I had to say that I forgot to fork the repository first, and when I found it I almost finished the website):
 
 ```
-$ git clone https://github.com/sourcethemes/academic-kickstart.git
+$ git clone https://github.com/username/academic-kickstart.git
 $ git submodule update --init --recursive
 ```
 
