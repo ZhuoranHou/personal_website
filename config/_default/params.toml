@@ -89,7 +89,7 @@ show_related = {docs = false, page = false, post = false, project = false, publi
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "zhuoran.hou@duke.edu"
-phone = "984 245 5467"
+#phone = "984 245 5467"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )

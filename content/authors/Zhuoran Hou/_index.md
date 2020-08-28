@@ -29,7 +29,7 @@ education:
   courses:
   - course: Master of Biostatistics
     institution: Duke University
-    year: Present
+    year: present
   - course: MS in Genetics
     institution: Fudan University
     year: 2019
