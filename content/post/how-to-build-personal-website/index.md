@@ -54,7 +54,7 @@ After this, there was several files generated and these are the bases of the web
 
 ### 4.Choose a theme.
 
-After the previous step, I started to choose a theme for my personal page on [Hugo Themes](https://themes.gohugo.io/) website.  I chose the **Academic** theme, which provide many very sophisticated website templates and detailed tutorials[3]. I followed the [tutorial](https://sourcethemes.com/academic/docs/install-locally/#install-with-git) and used the following commands to overwrite the files in the _personal_website_ folder. You should first fork the original repository ([academic-kickstart](https://github.com/sourcethemes/academic-kickstart)), clone your fork to the local PC and then initialize the theme by the command below (I had to say that I forgot to fork the repository first, and when I found it I almost finished the website):
+After the previous step, I started to choose a theme for my personal page on [Hugo Themes](https://themes.gohugo.io/) website.  I chose the **Academic** theme, which provide many very sophisticated website templates and detailed tutorials[3]. I followed the [tutorial](https://wowchemy.com/docs/install-locally/#install-with-git) and used the following commands to overwrite the files in the _personal_website_ folder. You should first fork the original repository ([academic-kickstart](https://github.com/wowchemy/starter-academic)), clone your fork to the local PC and then initialize the theme by the command below (I had to say that I forgot to fork the repository first, and when I found it I almost finished the website):
 
 ```
 $ git clone https://github.com/username/academic-kickstart.git
@@ -65,7 +65,7 @@ $ git submodule update --init --recursive
 
 ### 5.Edit the framework and customize it
 
-This step took most of my time. The framework consists of several parts: home, publication, project and post. For the basic information of the website, I mainly edited files such as: *config/_default/params.toml* , *config/_default/config.toml*, *config/_default/menus.toml* , *content/authors/admin/_index.md* . These contribute to the biography part of the personal website. I did this mainly based on this [tutorial](https://sourcethemes.com/academic/docs/get-started/) [4].  The content part (publication, project and post) is mainly based on this [tutorial](https://sourcethemes.com/academic/docs/managing-content/) [5].
+This step took most of my time. The framework consists of several parts: home, publication, project and post. For the basic information of the website, I mainly edited files such as: *config/_default/params.toml* , *config/_default/config.toml*, *config/_default/menus.toml* , *content/authors/admin/_index.md* . These contribute to the biography part of the personal website. I did this mainly based on this [tutorial](https://wowchemy.com/docs/get-started/) [4].  The content part (publication, project and post) is mainly based on this [tutorial](https://wowchemy.com/docs/managing-content/) [5].
 
 
 
@@ -103,11 +103,11 @@ Every time I made changes locally under the folder _personal_website_, I had to 
 
 2 https://www.gohugo.org/doc/tutorials/installing-on-windows/
 
-3 https://sourcethemes.com/academic/docs/
+3 https://wowchemy.com/docs/
 
-4 https://sourcethemes.com/academic/docs/get-started/
+4 https://wowchemy.com/docs/get-started/
 
-5 https://sourcethemes.com/academic/docs/managing-content/
+5 https://wowchemy.com/docs/managing-content/
 
 
 
