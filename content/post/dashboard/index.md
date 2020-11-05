@@ -601,7 +601,7 @@ def update_figure(selected_year):
 app.run_server(mode='inline',debug=True)
 ```
 
-![png](fig1.png)
+![gif](fig1.gif)
 
 
 - The Trend of number of doctorate recipients by sex from 1987 to 2017
@@ -659,7 +659,7 @@ def update_graph(field, sex):
 app.run_server(mode='inline',debug=True)
 ```
 
-![png](fig2.png)
+![gif](fig2.gif)
 
 
 
@@ -781,7 +781,7 @@ def update_sex_prop(hoverData, year_value):
 app.run_server(mode='inline',debug=True)
 ```
 
-<img src="fig3.png" alt="png" style="zoom:200%;" />
+![gif](fig3.gif)
 
 
 
