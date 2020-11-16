@@ -20,10 +20,10 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include statistical genetics and Bayesian statistics.
 
-interests:
-- Statistical Genetics
-- Bayesian Statistics
-- Machine Learning
+#interests:
+#- Statistical Genetics
+#- Bayesian Statistics
+#- Machine Learning
 
 education:
   courses:
