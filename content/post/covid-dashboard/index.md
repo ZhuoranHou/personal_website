@@ -28,6 +28,12 @@ image:
 projects: []
 ---
 
+The data project of our group is a dashboard that provided updated COVID-19 information and presents model results.
+
+The target audience of  our dashboard is the general audience who want to know some COVID-19 information in US and what factors influence case growth rate. Thus, we added a lot of explanations in the dashboard using non-technical wording and omitted technical details of the model.
+
+
+
 ### Project goals
 
 We first discussed the goals of our project and decided to finalize it when we had the data. After the data collection, here are the goals of the project:
@@ -88,7 +94,7 @@ We also compare the state level increase rate and the increase rate of US to ass
 
 **2.Predict Covid19 Case Growth Rate**
 
-Since cases changes as time goes, we first considered LSTM (Long short-term memory) recurrent neural network (RNN) model and time series model, but the results were not good.  Then, we decided only to consider increase rate and several lags instead of new cases to denote the effect of time. After that, we used **random forest** models to train the data and made predictions.
+Since cases changes as time goes, we first considered LSTM (Long short-term memory) recurrent neural network (RNN) model and time series model, but the results were not good.  Then, we decided only to consider increase rate and added several lags in the model to denote the effect of time instead of predicting new cases. After that, we used **random forest** models to train the data and made predictions.
 
 There were two levels of analysis: US level and states level. For US level, we used **hospital capacity data** ( number of inpatient beds, number of ICU beds, etc.), **state demographic information** and **policies** to predict increase rate. For the state level, we only use hospital capacity data and policy data since state demographic information were *constants* for a specific state and would not change over time. We used data before July as training datasets and data after July as test datasets.
 
